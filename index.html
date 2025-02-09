@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="фронтенд, сайт, веб разработка">
     <meta name="description" content="Я фронтенд разработчик">
-    <title>Таблицы</title>
+    <title>Aveli</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav class="navbar">
+<ul>
+    <li><a href="#">ОБО МНЕ</a></li>
+    <li><a href="#">НАПИСАТЬ</a></li>
+</ul>
+    </nav>
+    <div class="container">
+    <div class="info">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HTML5_logo_black.svg/2048px-HTML5_logo_black.svg.png" 
-    width="150" alt="HTML5">
+     alt="HTML5" class="avatar"> 
+     <div class="infotext">
 <h1>Артём Советников</h1>
 <p>Меня зовут Артём, <strong><em>я люблю играть в игры, заниматься спортом, учусь программировать и хочу создавать сайты.</em></strong></p>
 <h2>Мои соц. сети</h2>
-<a href="https://vk.com/id556606876" target="_blank">Вконтакте</a>
+<a class="link" href="https://vk.com/id556606876" target="_blank">Вконтакте</a>
+</div>
+</div>
+   <div class="card brr">
 <h1>Мои хобби:</h1>
 <ol>
     <li>Хоккей</li>
@@ -21,25 +34,29 @@
     <li>Игры</li>
     <li>Программирование</li>
 </ol>
+</div>
+<div class="card brg">
 <h1>Начало обучения</h1>
-<table>
+<table class="table">
     <thead>
         <tr>
-            <th>Название</th>
-            <th>Должность</th>
-            <th>Год</th>
+            <th class="st">Название</th>
+            <th class="st">Должность</th>
+            <th class="st">Год</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Программист</td>
-            <td>Frontend</td>
-            <td>2025</td>
+            <td class="st">Программист</td>
+            <td class="st">Frontend</td>
+            <td class="st">2025</td>
         </tr>
     </tbody>
 </table>
+</div>
+<div class="communication">
 <h1>Связаться со мной</h1>
-<form>
+<form class="form">
     <div>
         <label for="name">Ваше имя</label>
         <input type="text" id="name" placeholder="Введите имя">
@@ -53,7 +70,9 @@
     <br>
 <textarea id="message" cols="30" rows="10" placeholder="Введите сообщение..."></textarea>
 </div>
-<input type="submit" value="Отправить">
+<input class="btn" type="submit" value="Отправить">
 </form>
+</div>
+</div>
 </body>
 </html>
