@@ -128,5 +128,6 @@ padding-top: 5dvh;
 @media (max-width: 450px) {
     .navbar {
         width: 100%;
+        padding-right: 100px;
     }
 }
